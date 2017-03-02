@@ -1,6 +1,468 @@
-<html>
-<body>
-  <h1>Bienvenido</h1>
-</body>
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+<head>
+<title>PineApp</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/layout.css">
+<!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<![endif]-->
+<link rel="shortcut icon" href="images/favicon.ico">
+</head>
+<body data-spy="scroll" data-target="#nav-wrap">
+<header class="mobile">
+  <div class="row">
+    <div class="col full">
+      <div class="logo"> <a href="#"><img alt="" src="images/LogoFinalPineApp.png"></a> </div>
+      <nav id="nav-wrap"> <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a> <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+        <ul id="nav" class="nav">
+          <li><a href="#intro">Home</a></li>
+          <li><a href="#QuienesSomos">¿Quienes Somos?</a></li>
+          <li><a href="#portafolio">Servicios</a></li>
+		  <li><a href="#productos">Productos</a></li>
+		   <li><a href="#journal">Revista</a></li>
+          <li><a href="#about">Equipo de Trabajo</a></li>
+          <li><a href="#contact">Contactanos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+<section id="intro">
+  <div id="intro-slider" class="flexslider">
+    <ul class="slides">
+      <li>
+        <div class="row">
+          <div class="col full">
+            <div class="slider-text">
+              <h2>Hola, nosotros somos <span>PineApp</span>. especialistas en desarrollo de Aplicativos Web y Móviles.</h2>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="row">
+          <div class="col full">
+            <div class="slider-text">
+              <h2>Te invitamos a conocer <a href="#portafolio"> nuestros servicios</a>, tus inquietudes y    																														                   solicitudes son muy importantes para nosotros <a href="#contact">contactanos</a></h2>
+              <p>Pendiente.</p>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+<section id="QuienesSomos">
+  <div class="row section-head">
+    <div class="col one-third">
+      <h2>¿Quienes Somos?</h2>
+	  <div class="logo"> <img alt="" src="images/Portada.jpg"></div>
+    </div>
+    <div class="col two-thirds">
+      <div class="intro">
+        <p> <h2><span>PineApp</span></h2> Es una empresa dedicada a crear e implementar
+			soluciones innovadoras y a la medida de cada cliente en
+			desarrollo de software para entornos Web y Móvil, planteamos
+			productos basados en metodologías ágiles y herramientas libres.<BR><BR>  
+ 
+			De manera integral brindamos nuestros servicios de
+			Consultoria,Capacitaciones y diseño de páginas Web.</p> </div>
+    </div>
+  </div>
+  <div class="row section-head">
+    <div class="col full">
+      <h2>Misión</h2>
+      <p class="intro">Nuestra Misión es brindar servicios tecnológicos
+			confiables y de calidad mediante el uso de las más
+			avanzadas tecnologías y con personal certificado en
+			cada una de las ramas y productos que ofrecemos. </p>
+    </div>
+  </div>  
+  <div class="row section-head">
+    <div class="col full">
+      <h2>Visión</h2>
+      <p class="intro">Nuestra visión es ser líderes en el desarrollo de soluciones tecnológicas
+			en Colombia con productos que satisfagan las necesidades de los clientes. </p>
+    </div>
+  </div>
 
+  <div class="row">
+    <div class="services-wrapper">
+    </div>
+  </div>
+</section>
+<section id="portafolio">
+  <div class="row section-head">
+    <div class="col full">
+      <h2>Portafolio</h2>
+      <p class="intro">Te invitamos a conocer nuestros portafolio de servicios. </p>
+    </div>
+  </div>
+  <div class="row">
+    <div id="portfolio-wrapper">
+      <div class="col portfolio-item">
+        <div class="item-wrap"> <a href="#" data-reveal-id="modal-01"><img src="images/portfolio/desarrollo-software-.jpg" alt=""></a>
+          <div class="portfolio-item-meta">
+            <h5><a>Desarrollo de Software</a></h5>
+          </div>
+        </div>
+      </div>
+      <div class="col portfolio-item">
+        <div class="item-wrap"> <a href="#" data-reveal-id="modal-02"><img src="images/portfolio/AplicacionesMovilespng.png" alt=""></a>
+          <div class="portfolio-item-meta">
+            <h5><a>Desarrollo de App Móviles</a></h5>
+          </div>
+        </div>
+      </div>
+	  
+      <div class="col portfolio-item">
+        <div class="item-wrap"> <a href="#" data-reveal-id="modal-03"><img src="images/portfolio/website_slide_diseno1.png" alt=""></a>
+          <div class="portfolio-item-meta">
+            <h5><a>Desarrollo de Sitios Web</a></h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="modal-01" class="reveal-modal"> <img class="scale-with-grid" src="images/portfolio/modals/desarrollo-software-.jpg" alt="">
+    <div class="description-box">
+      <h4>Desarrollo de Software</h4>
+      <p>Desarrollamos productos personalizados ofreciendo soluciones rentables, competitivas, y escalables utilizando
+		la mejor opción en tecnologías de software acorde a su necesidad e infraestructura.</p>
+      <span class="categories"><i class="icon-tag"></i>Branding, Web Design</span> </div>
+    <div class="link-box"> <a href="#">Details</a> <a class="close-reveal-modal">Close</a> </div>
+  </div>
+  <div id="modal-02" class="reveal-modal"> <img class="scale-with-grid" src="images/portfolio/modals/AplicacionesMovilespng.png" alt="">
+    <div class="description-box">
+      <h4>Desarrollo de App Móviles</h4>
+       <p>La creación y el desarrollo para dispositivos móviles aportan grandes ventajas en una compañía, permitiendo que su oficina sea móvil, podrá         acceder a los mismos servicios que requiere en su oficina por medio de la implementación de servicios de comunicación digitales compactados en         su dispositivo móvil de forma ágil y segura.</p>
+      <span class="categories"><i class="icon-tag"></i>Branding, Web Design</span></div>
+    <div class="link-box"> <a href="#">Details</a> <a class="close-reveal-modal">Close</a></div>
+  </div>
+  <div id="modal-03" class="reveal-modal"> <img class="scale-with-grid" src="images/portfolio/modals/website_slide_diseno1.png" alt="">
+    <div class="description-box">
+      <h4>Diseño Web</h4>
+      <p>Nos enfocamos en dos tipos de sitios:
+ 
+		Sitio web Simple
+
+ 
+
+		Sitio web informativo que
+		fortalecerá el posicionamiento de su marca,
+		dando a conocer de forma clara los
+objetivos de su compañía.
+
+ 
+
+Sitio web Dinámico
+
+ 
+
+Nuestros sitios web
+están desarrollados
+bajo estándares de
+responsive design.
+</p>
+      <span class="categories"><i class="icon-tag"></i>Photography, Branding</span></div>
+    <div class="link-box"> <a href="#">Details</a> <a class="close-reveal-modal">Close</a></div>
+  </div>
+</section>
+<section id="productos">
+  <div class="row section-head">
+    <div class="col full">
+      <h2>Productos Desarrollados</h2>
+      <p class="intro">Te invitamos a conocer nuestros productos.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div>      
+          <div>
+            <h5>GO HELP</h5>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/YWikhmO3A48" frameborder="0" allowfullscreen></iframe>
+          </div> 
+    </div>
+  </div>
+</section>
+<section id="journal">
+  <div class="row section-head">
+    <div class="col full">
+      <h2>Revista</h2>
+      <p class="desc">Noticias de interes.</p>
+    </div>
+  </div>
+  <div class="blog-entries">
+    <article class="entry">
+      <div class="row entry-header">
+        <div class="author-image"> <img src="images/user-03.png" alt=""></div>
+        <div class="col g-9 offset-1 entry-title">
+          <h3><a href="blog-single.html">Equipos Usados de Manera Negligente: 32% de Usuarios no Toma Precauciones al Compartir sus Dispositivos.</a></h3>
+        </div>
+        <div class="col g-2">
+          <p class="post-meta">
+            <time pubdate="" class="post-date" datetime="2015-01-22">Ene 22, 20155</time>
+            <span class="dauthor">By Revista Informática</span></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col g-9 offset-1 post-content">
+          <p>Dejar un dispositivo compartido sin protección es extremadamente peligroso - nadie puede estar completamente seguro que otros usuarios estén lo suficientemente conscientes de las ciberamenazas: un usuario inexperto puede caer en la trampa de un estafador o descargar un archivo ejecutable malicioso... <a href="http://www.informatica.cl/Noticias/Equipos-Usados-de-Manera-Negligente-32-de-Usuarios-no-Toma-Precauciones-al-Compartir-sus-Dispositivos.html" target="_blank" class="more-link">Leer Más<i class="icon-angle-right"></i></a></p>
+        </div>
+      </div>
+    </article>
+    <article class="entry">
+      <div class="row entry-header">
+        <div class="author-image"> <img src="images/user-03.png" alt=""></div>
+        <div class="col g-9 offset-1 entry-title">
+          <h3><a href="blog-single.html">Elon Musk Quiere Llevar Internet al Espacio</a></h3>
+        </div>
+        <div class="col g-2">
+          <p class="post-meta">
+            <time pubdate="" class="post-date" datetime="2015-01-19">Ene 19, 2015</time>
+            <span class="dauthor">By Revista Informática</span></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col g-9 offset-1 post-content">
+          <p>No está claro cuando la iniciativa será llevada a cabo, sin embargo, Musk afirmó que llevaría al menos cinco caños preparar la primera generación de satélites, por lo que el proyecto podría tomar más de 15 años en llegar a su máxima capacidad...<a href="http://www.informatica.cl/Noticias/Elon-Musk-Quiere-Llevar-Internet-al-Espacio.html" target="_blank" class="more-link">Leer Más<i class="icon-angle-right"></i></a></p>
+        </div>
+      </div>
+    </article>
+    <article class="entry">
+      <div class="row entry-header">
+        <div class="author-image"> <img src="images/user-03.png" alt=""></div>
+        <div class="col g-9 offset-1 entry-title">
+          <h3><a href="blog-single.html">IBM rompe récord de registro de Patente Estadounidenses en 2014.</a></h3>
+        </div>
+        <div class="col g-2">
+          <p class="post-meta">
+            <time pubdate="" class="post-date" datetime="2015-01-13">Ene 13, 2015</time>
+            <span class="dauthor">By Revista Informática</span></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col g-9 offset-1 post-content">
+          <p>El récord de patentes establecido en 2014 estuvo conformado en parte por más de 3.000 patentes -40% del total anual- provenientes de la gama de cloud computing, analítica, movilidad, negocios sociales y seguridad. <a href="http://www.informatica.cl/Noticias/IBM-rompe-record-de-registro-de-Patente-Estadounidenses-en-2014.html" target="_blank" class="more-link">Read More<i class="icon-angle-right"></i></a></p>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+<section id="about">
+  <div class="row section-head">
+    <div class="col one-fourth">
+      <h2>Acerca de Nosotros</h2>
+      <p class="desc"></p>
+    </div>
+    <div class="col three-fourths">
+      <p class="intro">El Grupo PineApp, es una empresa dedicada a crear e implementar
+soluciones innovadoras y a la medida de cada cliente en
+desarrollo de software para entornos Web y Móvil, planteamos
+productos basados en metodologías ágiles y herramientas libres. 
+ 
+
+De manera integral brindamos nuestros servicios de
+Consultoria,Capacitaciones y diseño de páginas Web, nuestrosclientes 
+encontraran una empresa confiable,dinámica y que siempre está a la vanguardia de la Tecnología. </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col full">
+      <h3>Áreas de Trabajo</h3>
+    </div>
+  </div>
+  <div class="row process-wrap">
+    <div class="col">
+      <h4>Investigación</h4>
+      <p>Nos enfocamos en fortalecer nuestro conocimiento con investigación en los últimos avances Tecnológicos, generando innovación en nuestros   		productos y estando a la vanguardia en las herramientas de desarrollo.</p>
+    </div>
+    <div class="col">
+      <h4>Diseño</h4>
+      <p> Nuestros diseños en las aplicaciones como en nuestras paginas web son elaborados para satisfacer la necesidad de cada cliente, brindando un entorno agradable de navegabilidad y de facil interacción.</p>
+    </div>
+    <div class="col m-first">
+      <h4>Desarrollo</h4>
+      <p>Nuestros desarrollos basados en metodologias ágiles van de la mano con estandares de calidad y la implementación de mejores practicas de desarrollo.</p>
+    </div>
+    <div class="col">
+      <h4>Cumplimiento</h4>
+      <p>Nuestra prioridad es que nuestros clientes tengan su producto en el tiempo esperado y que sea de su absoluta satisfacción, por eso contamos con metodologias ágiles y de control para ser capaces de establecer y corregir inconvenientes a temprana etapa de los desarrollos. </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col full">
+      <h3>Conozca Nuestro Equipo</h3>
+    </div>
+  </div>
+  <div class="row team-wrap">
+    <div class="col one-fourth"> <img src="images/team/team-img-01.jpg" alt="">
+      <div class"member-name">
+        <h5>Luis Bonilla</h5>
+        <span>CEO (Co-fundador)</span> </div>
+      <ul class="member-social">
+        <li><a href="#"><i class="icon-facebook"></i></a></li>
+        <li><a href="#"><i class="icon-twitter"></i></a></li>
+        <li><a href="#"><i class="icon-google-plus-sign"></i></a></li>
+        <li><a href="#"><i class="icon-linkedin"></i></a></li>
+        <li><a href="#"><i class="icon-skype"></i></a></li>
+      </ul>
+    </div>
+    <div class="col one-fourth"> <img src="images/team/team-img-02.jpg" alt="">
+      <div class"member-name">
+        <h5>Liseth Barros</h5>
+        <span>Gerente comercial (Co-fundador)</span> </div>
+      <ul class="member-social">
+        <li><a href="#"><i class="icon-facebook"></i></a></li>
+        <li><a href="#"><i class="icon-twitter"></i></a></li>
+        <li><a href="#"><i class="icon-google-plus-sign"></i></a></li>
+        <li><a href="#"><i class="icon-linkedin"></i></a></li>
+        <li><a href="#"><i class="icon-skype"></i></a></li>
+      </ul>
+    </div>
+    <div class="col one-fourth"> <img src="images/team/team-img-03.jpg" alt="">
+      <div class"member-name">
+        <h5>Oscar De La Rosa</h5>
+        <span>Director desarrollo de software (Co-fundador)</span> </div>
+      <ul class="member-social">
+        <li><a href="#"><i class="icon-facebook"></i></a></li>
+        <li><a href="#"><i class="icon-twitter"></i></a></li>
+        <li><a href="#"><i class="icon-google-plus-sign"></i></a></li>
+        <li><a href="#"><i class="icon-linkedin"></i></a></li>
+        <li><a href="#"><i class="icon-skype"></i></a></li>
+      </ul>
+    </div>
+    <div class="col one-fourth"> <img src="images/team/team-img-03.jpg" alt="">
+      <div class"member-name">
+        <h5>Andres Bonilla</h5>
+        <span>Director de infraestructura (Co-fundador)</span> </div>
+      <ul class="member-social">
+        <li><a href="#"><i class="icon-facebook"></i></a></li>
+        <li><a href="#"><i class="icon-twitter"></i></a></li>
+        <li><a href="#"><i class="icon-google-plus-sign"></i></a></li>
+        <li><a href="#"><i class="icon-linkedin"></i></a></li>
+        <li><a href="#"><i class="icon-skype"></i></a></li>
+      </ul>
+    </div>
+  </div>
+  <!--
+  <div class="row">
+    <div class="col full section-head">
+      <h2>Testimonios</h2>
+      <p class="desc">Que dicen nuestros clientes</p>
+    </div>
+  </div>-->
+  <div class="row testimonials">
+  <!--
+    <div class="col half">
+	
+      <div class="client-author"> <img src="images/client-img.png" alt="">
+        <div class="name">
+          <p>John Doe<span>Designer</span></p>
+        </div>
+      </div>
+	  
+      <div class="client-cite">
+        <p>Phasellus - ut augue at sapien bibendum bibendum amet magna. Aenean condimentum, lacus sit amet luctus lobortis, enim tellus ultrices elit, amet consequat enim elit noneas.</p>
+      </div>
+    </div>-->
+	<!--
+    <div class="col half">
+      <div class="client-author"> <img src="images/client-img.png" alt="">
+        <div class="name">
+          <p>Michael Smith<span>CEO</span></p>
+        </div>
+      </div>
+      <div class="client-cite">
+        <p>Nascetur augue hac platea enim, egestas pulvinar vut. Pulvinar cum, ac eu, tristie acus duis in dictumst non integer. Elit, sed scelerisque odio tortor, sed platea dis. Aenean condimentum, lacus sit amet luctus lobortis, enim tellus ultrices elit.</p>
+      </div>
+    </div>-->
+  </div>
+</section>
+<section id="mapa">
+  <iframe src="https://mapsengine.google.com/map/embed?mid=z5Mah5KW5EPc.kHahyJwmtVOs" width="80%" height="300"></iframe>
+</section>
+<section id="contact">
+  <div class="row section-head">
+    <div class="col full">
+      <h2>Contáctanos</h2>
+      <p class="desc">Póngase en contacto con nosotros.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col g-7">
+      <form name="contactForm" id="contactForm" method="post" action="#">
+        <fieldset>
+          <div>
+            <label for="contactName">Nombre <span class="required">*</span></label>
+            <input name="contactName" type="text" id="contactName" size="35" value="">
+          </div>
+          <div>
+            <label for="contactEmail">Email <span class="required">*</span></label>
+            <input name="contactEmail" type="text" id="contactEmail" size="35" value="">
+          </div>
+          <div>
+            <label for="contactSubject">Genero</label>
+            <input name="contactSubject" type="text" id="contactSubject" size="35" value="">
+          </div>
+          <div>
+            <label  for="contactMessage">Mensaje <span class="required">*</span></label>
+            <textarea name="contactMessage"  id="contactMessage" rows="15" cols="50"></textarea>
+          </div>
+          <div>
+            <button class="submit">Enviar</button>
+            <span id="image-loader"> <img src="images/loader.gif" alt=""> </span> </div>
+        </fieldset>
+      </form>
+      <div id="message-warning"></div>
+      <div id="message-success"> <i class="icon-ok"></i>Tu mensaje ha sido enviado, gracias!<br>
+      </div>
+    </div>
+    <aside class="col g-5">
+      <h3>Información de Contacto</h3>
+      <p></p>
+      <p> PineApp <br>
+        Calle 61 sur Nº 71D 15 int 11 apto 101 </p>
+      <p> Telefono: 3002795509-3185074423 <br>
+        Email: info@pineapp.com.co </p>
+      <br>
+      <!--<h3>Template Info</h3>
+      <p>Kreative is a free website template by styleshout.com. This work is released and licensed under the Creative Commons Attribution 3.0 License, which means that you are free to use and modify it for any personal or commercial purpose. All I ask is that you give me credit by including a credit link to my website. </p>-->
+    </aside>
+  </div>
+</section>
+<footer>
+  <div class="row">
+    <div class="col g-7">
+      <!--<ul class="copyright">
+        <li>Copyright &copy; 2045 Kreative</li>
+        <li>Design by <a href="http://www.styleshout.com/">Styleshout</a></li>
+      </ul>-->
+    </div>
+    <div class="col g-5 pull-right">
+      <ul class="social-links">
+        <li><a href="#"><i class="icon-facebook"></i></a></li>
+        <li><a href="#"><i class="icon-twitter"></i></a></li>
+        <li><a href="#"><i class="icon-google-plus-sign"></i></a></li>
+        <li><a href="#"><i class="icon-linkedin"></i></a></li>
+        <li><a href="#"><i class="icon-skype"></i></a></li>
+        <li><a href="#"><i class="icon-rss-sign"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/scrollspy.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/jquery.reveal.js"></script>
+<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<script src="js/gmaps.js"></script>
+<script src="js/init.js"></script>
+<script src="js/smoothscrolling.js"></script>
+</body>
 </html>
