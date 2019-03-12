@@ -1,5 +1,5 @@
 <?php
-  $mail="pineappcomco@gmail.com";
+  $mail="comercial@pineapp.co";
   $nombre = $_POST["nombre"];
   $email = $_POST["email"];
   $phone = $_POST["phone"];
